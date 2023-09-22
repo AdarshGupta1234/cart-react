@@ -1,0 +1,70 @@
+.main{
+    background-image: url('https://media.istockphoto.com/id/1441581800/photo/heavy-crumpled-black-paper-texture-in-low-light-background.jpg?s=2048x2048&w=is&k=20&c=mNXGVUnFDogxVWcZgQNXsldJNQgWNf0nYkZyNTmlv8U=');
+    height: 60vh;
+    background-size: cover;
+    
+}
+.navbar{
+    display: flex;
+    color: white;  
+    gap: 20%;
+    padding-top: 10px
+}
+.navbar button{
+    background: rgb(36, 233, 174);
+    border-radius: 25px;
+    padding: 10px 20px;
+
+}
+.navbar .middle-nav{
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 30%;
+width: 50%;
+}
+
+.navbar .left-nev{
+    justify-content: flex-start;
+    text-align: center;
+}
+.sec{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    color: white;
+    
+}
+.sec input{
+    width: 600px;
+    padding: 10px 20px;
+    border-radius: 25px;
+}
+.sec h1{
+    font-size: 40px;
+}
+.image{
+display: flex;
+flex-wrap: wrap;
+
+justify-content: space-around;
+background-color: rgb(21,21,21)
+
+}.image img{
+    padding-top: 10px;
+}
+input::placeholder {
+    text-align: center;
+    font-size: 14px;
+}
+@media (max-width: 650px) {
+     .sec input{
+        width: 200px;
+        padding: 10px 20px;
+        border-radius: 25px;
+    }
+    .main{
+        background-size: cover;
+
+    }
+}
